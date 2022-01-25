@@ -4,10 +4,9 @@
     <listeners>
         <listener class-name="AfterAllSuitesExecutionListener"/>
     </listeners>
-    <test name="Inventory Items 2">
-        <classes>
-            <class name="FirstTest"/>
-            <class name="SecondTest"/>
-        </classes>
-    </test>
+    <suite-files>
+        <suite-file path="suite1.xml"/>
+        <suite-file path="suite2.xml"/>
+
+    </suite-files>
 </suite>

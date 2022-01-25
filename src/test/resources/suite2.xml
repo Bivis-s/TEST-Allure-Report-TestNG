@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Inventory Items 2" group-by-instances="true">
-    <listeners>
-        <listener class-name="AfterAllSuitesExecutionListener"/>
-    </listeners>
+<suite name="Inventory Items 2">
     <test name="Inventory Items 2">
         <classes>
-            <class name="FirstTest"/>
             <class name="SecondTest"/>
         </classes>
     </test>
